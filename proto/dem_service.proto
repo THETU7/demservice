@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package dem_service;
+
+service Heighter {
+  rpc GetHeight (GetHeightRequest) returns (GetHeightReply) {}
+}
+
+message GetHeightRequest {
+  repeated string wkts = 1;
+  bool is_trans = 2;
+}
+
+message GetHeightReply {
+  repeated string wkts = 1;
+}

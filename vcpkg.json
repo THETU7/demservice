@@ -1,0 +1,6 @@
+{
+  "name": "demservice",
+  "version-string": "0.1.0",
+  "description": "提供DEM高程服务",
+  "dependencies": ["protobuf", "grpc", "gdal"]
+}
